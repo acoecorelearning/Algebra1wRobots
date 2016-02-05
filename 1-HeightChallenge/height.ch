@@ -7,4 +7,4 @@
 CLinkbotI robot; //assigns the name robot to the Linkbot
 
 robot.move(some number of degrees, 0, -some number of degrees); //moves the robot some 
-																//number of degrees
+								//number of degrees
