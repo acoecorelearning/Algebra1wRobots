@@ -4,11 +4,11 @@
 
 import linkbot   # loads library for linkbots
 import time      # loads library for time
- 
+
 robotID = input('Enter Linkbot ID: ')  # prompts user for the ID for their Linkbot 
                                        # and saves the result in a variable called
                                        # "robotID" - fyi: case doesn't matter
-                                       
+
 robot = linkbot.Linkbot(robotID)   # Assigns the name 'robot' to the given robotID 
 
 robot.setJointSpeeds(0, 0, 0) # changes the robot's speed: degrees/second
