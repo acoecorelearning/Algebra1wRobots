@@ -10,5 +10,5 @@ robotID = input('Enter Linkbot ID: ')  # prompts user for the ID for their Linkb
                                        
 robot = linkbot.Linkbot(robotID)   # Assigns the name 'robot' to the given robotID
 
-robot.move(some number of degrees, 0, -some number of degrees) #moves the robot some
-							       #number of degrees
+robot.move(revolutions*360, 0, -revolutions*360) #moves the robot some
+						 #number of revolutions
